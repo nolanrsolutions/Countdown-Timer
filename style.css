@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: white;
+    background-image: url('https://i.ibb.co/1sjyb8g/pexels-crazy-motions-12920871.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  input[type="datetime-local"], button {
+    margin: 20px;
+  }
+  
+  input[type="datetime-local"] {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    background-color: #e0e0e0;
+  }
+  
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-family: "Poppins", sans-serif;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #bdbdbd;
+  }
+  
+  input[type="datetime-local"] {
+    font-family: 'Poppins', sans-serif;
+  }
+  
