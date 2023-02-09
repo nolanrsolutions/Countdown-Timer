@@ -41,6 +41,11 @@ body {
   button:hover {
     background-color: #bdbdbd;
   }
+
+  .titleText {
+    color: white;
+    text-shadow: 0.5px 0.5px 1px rgb(129, 129, 129);
+  }
   
   input[type="datetime-local"] {
     font-family: 'Poppins', sans-serif;
